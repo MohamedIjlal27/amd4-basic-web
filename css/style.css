@@ -1,0 +1,28 @@
+.title {
+  color: black;
+  background-color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: brown;
+  padding: 20px;
+  border-radius: 15;
+  color: whitesmoke;
+}
+
+.para {
+  font-weight: bold;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+.input {
+  padding: 20px;
+  border-radius: 100px;
+  border: 1px solid gray;
+}

@@ -1,0 +1,65 @@
+.left-top {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(126, 202, 96);
+  border-radius: 100px;
+  position: absolute;
+  left: 10px;
+}
+
+.right-top {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  right: 10px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.right-bottom {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(126, 202, 96);
+  right: 10px;
+  bottom: 10px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.left-bottom {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  left: 10px;
+  bottom: 10px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.center {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(50, 45, 94);
+  top: 250px;
+  left: 600px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+}
+
+.sum-container {
+  width: 50%;
+  height: 50%;
+  background-color: black;
+}
+
+.continer2 {
+  width: 300vw;
+  height: 40vh;
+  background-color: blue;
+}

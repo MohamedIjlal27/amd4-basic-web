@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 35px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(173, 255, 47, 0.5);
+        cursor: pointer;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-btn {
+        border: none;
+        padding: 20px;
+        background-color: greenyellow;
+        color: black;
+        font: 25px;
+        cursor: pointer;
+      }
+
+      a {
+        padding: 10px;
+        display: block;
+      }
+
+      .dropdown-menu {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown-menu">
+      <div class="dropdown">
+        <button class="dropdown-btn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Option1</a>
+          <a href="#">Option2</a>
+          <a href="#">Option3</a>
+          <a href="#">Option4</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Option1</a>
+          <a href="#">Option2</a>
+          <a href="#">Option3</a>
+          <a href="#">Option4</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-btn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Option1</a>
+          <a href="#">Option2</a>
+          <a href="#">Option3</a>
+          <a href="#">Option4</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  margin-left: 50px;
+}
+
+button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  background-color: blueviolet;
+  color: white;
+  margin-left: 240px;
+}
+
+.form {
+  width: 45%;
+  background-color: rgb(22, 20, 46);
+  margin: 12% auto;
+}
