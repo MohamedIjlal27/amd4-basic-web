@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+}
+
+.first {
+  flex: 1;
+}
+
+.second {
+  flex: 1;
+}
+
+.third {
+  flex: 1;
+}
